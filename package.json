@@ -1,0 +1,20 @@
+{
+  "name": "trial1",
+  "version": "1.0.0",
+  "description": "Custom cli command by traversy Media",
+  "main": "index.js",
+  "prefer": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "setup": "./command.js"
+  },
+  "author": "Navneet Pal",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "inquirer": "^8.0.0",
+    "mongoose": "^5.12.3"
+  }
+}
